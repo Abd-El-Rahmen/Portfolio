@@ -2,6 +2,7 @@ import React from "react";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 import { ArrowDown, Download } from "lucide-react";
 import AnimatedText from "./AnimatedText";
+import profile from "../../public/images/profile/itsme.png"
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
     >
       <div className="">
         <img
-          src="../../public/images/profile/itsme.png"
+          src={profile}
           alt=""
           className="w-48 h-48 md:w-40 md:h-40 object-cover rounded-full"
         />

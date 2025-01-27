@@ -1,4 +1,5 @@
 import React from "react";
+import  logo from '"../../public/bng.png"'
 
 const aboutItems = [
   {
@@ -50,7 +51,7 @@ const About = () => {
               ))}
             </div>
             <div className="p-1 bg-white size-12 md:size-14 rounded-full flex items-center justify-center ">
-              <img src="../../public/bng.png" alt="Abdou" />
+              <img src={logo} alt="Abdou" />
             </div>
           </div>
         </div>

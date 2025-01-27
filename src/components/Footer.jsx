@@ -2,6 +2,8 @@ import React from "react";
 import { connectItems } from "../utils/connectItems";
 import { ButtonPrimary } from "./Button";
 import { ChevronRight } from "lucide-react";
+import logo from "../../public/bng.png"
+
 
 const navItems = [
   {
@@ -75,7 +77,7 @@ const Footer = () => {
         <div className="flex items-center justify-between my-4">
           <a href="" className="">
             <div className="p-1 bg-white size-12 md:size-14 rounded-full flex items-center justify-center ">
-              <img src="../../public/bng.png" alt="Abdou" />
+              <img src={logo} alt="Abdou" />
             </div>
           </a>
           <p className="text-zinc-500 text-sm">
