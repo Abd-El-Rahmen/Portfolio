@@ -11,7 +11,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
             <div className="p-1 bg-white size-12 rounded-full flex items-center justify-center transition-all duration-200 hover:size-14">
-              <img src="../../public/bng.png" alt="Abdou" />
+              <img src="/bng.png" alt="Abdou" />
             </div>
           </a>
         </h1>

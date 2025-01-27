@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="">
         <img
-          src="../../public/images/profile/itsme.png"
+          src="/images/profile/itsme.png"
           alt=""
           className="w-48 h-48 md:w-40 md:h-40 object-cover rounded-full"
         />
@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="flex gap-2">
           <ButtonPrimary
             label="Download CV"
-            href="../../public/Documents/Resume.pdf"
+            href="/Documents/Resume.pdf"
             download={true}
             target="_blank"
             icon={<Download size={18} />}
