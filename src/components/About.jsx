@@ -17,7 +17,7 @@ const About = () => {
       <div className="space-y-4">
         <h2 className="headline-2 ml-4 reveal-up">About</h2>
         <div className="bg-zinc-800/50 p-8 rounded-2xl md:p-12 space-y-10 md:space-y-0 reveal-up">
-          <p className="text-zinc-300 mb-4 md:mb-8 md:text-md md:max-w-[60ch] ">
+          <p className="text-zinc-300 text-sm mb-4 md:mb-8 md:text-md md:max-w-[60ch] ">
             &nbsp;&nbsp;I’m Abd El Rahmen Benmegal, a 21-year-old from
             Algeria. I’m currently pursuing a degree in Business Intelligence at{" "}
             <a
