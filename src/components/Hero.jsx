@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
       <div className="space-y-5">
         <div className="max-w-lg space-y-3">
-          <AnimatedText text={"Salem, Oubaida here!"} className="headline-1" />
+          <AnimatedText text={"Hey, Oubaida here!"} className="headline-1" />
           <p className="text-md font-extralight text-zinc-50/50">
             A humble human being who loves building software apps, AI models,
             and working with data.
